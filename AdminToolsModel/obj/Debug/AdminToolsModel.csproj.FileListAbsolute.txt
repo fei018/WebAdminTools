@@ -1,0 +1,11 @@
+C:\VisualStudioProject\Projects\WebAdminTools\AdminToolsModel\bin\Debug\AdminToolsModel.dll.config
+C:\VisualStudioProject\Projects\WebAdminTools\AdminToolsModel\bin\Debug\AdminToolsModel.dll
+C:\VisualStudioProject\Projects\WebAdminTools\AdminToolsModel\bin\Debug\AdminToolsModel.pdb
+C:\VisualStudioProject\Projects\WebAdminTools\AdminToolsModel\bin\Debug\EntityFramework.dll
+C:\VisualStudioProject\Projects\WebAdminTools\AdminToolsModel\bin\Debug\EntityFramework.SqlServer.dll
+C:\VisualStudioProject\Projects\WebAdminTools\AdminToolsModel\bin\Debug\EntityFramework.xml
+C:\VisualStudioProject\Projects\WebAdminTools\AdminToolsModel\bin\Debug\EntityFramework.SqlServer.xml
+C:\VisualStudioProject\Projects\WebAdminTools\AdminToolsModel\obj\Debug\AdminToolsModel.csproj.CoreCompileInputs.cache
+C:\VisualStudioProject\Projects\WebAdminTools\AdminToolsModel\obj\Debug\AdminToolsModel.csproj.CopyComplete
+C:\VisualStudioProject\Projects\WebAdminTools\AdminToolsModel\obj\Debug\AdminToolsModel.dll
+C:\VisualStudioProject\Projects\WebAdminTools\AdminToolsModel\obj\Debug\AdminToolsModel.pdb

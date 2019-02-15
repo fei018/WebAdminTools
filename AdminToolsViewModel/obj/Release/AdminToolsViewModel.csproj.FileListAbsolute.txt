@@ -1,0 +1,16 @@
+C:\VisualStudioProject\Projects\WebAdminTools\AdminToolsViewModel\bin\Release\AdminToolsViewModel.dll
+C:\VisualStudioProject\Projects\WebAdminTools\AdminToolsViewModel\bin\Release\AdminToolsViewModel.pdb
+C:\VisualStudioProject\Projects\WebAdminTools\AdminToolsViewModel\bin\Release\AdminToolsModel.dll
+C:\VisualStudioProject\Projects\WebAdminTools\AdminToolsViewModel\bin\Release\PagedList.dll
+C:\VisualStudioProject\Projects\WebAdminTools\AdminToolsViewModel\bin\Release\PagedList.Mvc.dll
+C:\VisualStudioProject\Projects\WebAdminTools\AdminToolsViewModel\bin\Release\EntityFramework.dll
+C:\VisualStudioProject\Projects\WebAdminTools\AdminToolsViewModel\bin\Release\AdminToolsModel.pdb
+C:\VisualStudioProject\Projects\WebAdminTools\AdminToolsViewModel\bin\Release\AdminToolsModel.dll.config
+C:\VisualStudioProject\Projects\WebAdminTools\AdminToolsViewModel\bin\Release\PagedList.xml
+C:\VisualStudioProject\Projects\WebAdminTools\AdminToolsViewModel\bin\Release\PagedList.Mvc.xml
+C:\VisualStudioProject\Projects\WebAdminTools\AdminToolsViewModel\bin\Release\EntityFramework.xml
+C:\VisualStudioProject\Projects\WebAdminTools\AdminToolsViewModel\obj\Release\AdminToolsViewModel.csprojAssemblyReference.cache
+C:\VisualStudioProject\Projects\WebAdminTools\AdminToolsViewModel\obj\Release\AdminToolsViewModel.csproj.CoreCompileInputs.cache
+C:\VisualStudioProject\Projects\WebAdminTools\AdminToolsViewModel\obj\Release\AdminToolsViewModel.csproj.CopyComplete
+C:\VisualStudioProject\Projects\WebAdminTools\AdminToolsViewModel\obj\Release\AdminToolsViewModel.dll
+C:\VisualStudioProject\Projects\WebAdminTools\AdminToolsViewModel\obj\Release\AdminToolsViewModel.pdb

@@ -1,0 +1,101 @@
+﻿@using PagedList
+@using PagedList.Mvc
+@model IPagedList<AdminToolsModel.CSPCall.CSPCallDetails>
+
+@{
+    ViewBag.Title = "Call List";
+}
+
+<link href="/Content/PagedList.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+    body {
+        overflow-x: auto;
+        overflow-y: auto;
+    }
+</style>
+<div>
+    <hr />
+    <p>
+        @Html.ActionLink("Create New", "Create", "CSPCall", null, new { @class = "a-btn a-btn2" })
+    </p>
+</div>
+<div>
+    <table class="table table-condensed table-striped">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstOrDefault().Company)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstOrDefault().Location)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstOrDefault().ContactPerson)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstOrDefault().Symptom)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstOrDefault().ScheduleTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstOrDefault().ServeTime1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstOrDefault().ServeTime2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstOrDefault().ServiceDescription)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Company)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Location)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ContactPerson)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Symptom)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ScheduleTime)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ServeTime1)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ServeTime2)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ServiceDescription)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.Id })
+                    @Ajax.ActionLink("Delete", "Delete", new { id = item.Id }, new AjaxOptions { Confirm = "Delete Confirm ?", OnSuccess="reloadpage()" , HttpMethod = "POST"})
+                    @*@Html.ActionLink("Delete", "Delete", new { id = item.Id })*@
+                </td>
+            </tr>
+        }
+    </table>
+</div>
+<div>
+    <di>
+        @Html.PagedListPager(Model, page => Url.Action("CallList", new { page = page }))
+    </di>
+</div>
+
+@section scripts{
+    <script src="~/scripts/jquery.unobtrusive-ajax.min.js"></script>
+    <script>
+        function reloadpage() {
+            window.location.reload();
+        }
+    </script>
+    }

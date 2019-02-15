@@ -1,0 +1,12 @@
+C:\VisualStudioProject\Projects\WebAdminTools\AdminToolsModel\bin\Release\AdminToolsModel.dll.config
+C:\VisualStudioProject\Projects\WebAdminTools\AdminToolsModel\bin\Release\AdminToolsModel.dll
+C:\VisualStudioProject\Projects\WebAdminTools\AdminToolsModel\bin\Release\AdminToolsModel.pdb
+C:\VisualStudioProject\Projects\WebAdminTools\AdminToolsModel\bin\Release\EntityFramework.dll
+C:\VisualStudioProject\Projects\WebAdminTools\AdminToolsModel\bin\Release\EntityFramework.SqlServer.dll
+C:\VisualStudioProject\Projects\WebAdminTools\AdminToolsModel\bin\Release\EntityFramework.xml
+C:\VisualStudioProject\Projects\WebAdminTools\AdminToolsModel\bin\Release\EntityFramework.SqlServer.xml
+C:\VisualStudioProject\Projects\WebAdminTools\AdminToolsModel\obj\Release\AdminToolsModel.csproj.CoreCompileInputs.cache
+C:\VisualStudioProject\Projects\WebAdminTools\AdminToolsModel\obj\Release\AdminToolsModel.csproj.CopyComplete
+C:\VisualStudioProject\Projects\WebAdminTools\AdminToolsModel\obj\Release\AdminToolsModel.dll
+C:\VisualStudioProject\Projects\WebAdminTools\AdminToolsModel\obj\Release\AdminToolsModel.pdb
+C:\VisualStudioProject\Projects\WebAdminTools\AdminToolsModel\obj\Release\AdminToolsModel.csprojAssemblyReference.cache

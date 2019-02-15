@@ -1,0 +1,17 @@
+﻿<h4>Download NotesId</h4>
+<hr />
+<div>
+    @using (Ajax.BeginForm("SearchId", new AjaxOptions { HttpMethod = "POST", InsertionMode = InsertionMode.Replace, UpdateTargetId = "searchResult" }))
+    {
+        <div align="center">
+            NotesId Name:
+            <input type="text" name="filename" />
+            <input type="submit" name="submit" value="Search" />
+        </div>
+    }
+</div>
+<div id="searchResult"></div>
+
+@section scripts{
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+}
